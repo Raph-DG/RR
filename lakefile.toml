@@ -1,0 +1,20 @@
+name = "RiemannRoch"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["RiemannRoch"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[require]]
+name = "Dress"
+git = "https://github.com/e-vergo/Dress.git"
+rev = "main"
+
+[[lean_lib]]
+name = "RiemannRoch"
